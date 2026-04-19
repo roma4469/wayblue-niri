@@ -19,10 +19,19 @@ modules:
 
   - type: dnf
     repos:
-      copr:
+        files:
+
+        copr:
         - atim/starship
     install:
       packages:
+        - terra-release
+        - noctalia-shell
+        - noctalia-qs
+        - brightnessctl
+        - cliphist
+        - wlsunset
+        - evolution-data-center
         - micro
         - starship
         - kitty
