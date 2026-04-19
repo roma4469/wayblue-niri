@@ -61,7 +61,7 @@ modules:
           - org.gnome.Loupe
           - io.github.diegopvlk.Cine
           - app.zen_browser.zen
-     - scope: user # Also add Flathub user repo, but no user packages
+       scope: user # Also add Flathub user repo, but no user packages
 
   # this sets up the proper policy & signing files for signed images to work fully
   - type: signing
