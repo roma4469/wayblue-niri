@@ -1,3 +1,7 @@
 cosign.key
 cosign.private
 /Containerfile
+/.bluebuild-scripts_*
+wayblue-niri.iso
+wayblue-niri.iso-CHECKSUM
+

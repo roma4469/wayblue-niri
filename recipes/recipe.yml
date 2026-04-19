@@ -6,8 +6,8 @@ name: wayblue-niri
 description: This is my spin of Wayblue:Niri with Noctalia-Shell.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/wayblueorg/niri
-image-version: latest # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/wayblueorg/niri 
+image-version: latest 
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -25,6 +25,8 @@ modules:
       packages:
         - micro
         - starship
+	- kitty
+	- fish
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -42,4 +44,5 @@ modules:
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  # this sets up the proper policy & signing files for signed images to work fully
+  - type: signing
