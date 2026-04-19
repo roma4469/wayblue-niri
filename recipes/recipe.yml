@@ -45,7 +45,7 @@ modules:
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-         - nm-applet # noctalia has its own applets
+        - nm-applet # noctalia has its own applets
 
 # - type: script
 #   scripts:
