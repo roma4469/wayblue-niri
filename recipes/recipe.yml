@@ -19,9 +19,9 @@ modules:
 
   - type: dnf
     repos:
-        files:
-
-        copr:
+      files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+      copr:
         - atim/starship
     install:
       packages:
@@ -31,7 +31,7 @@ modules:
         - brightnessctl
         - cliphist
         - wlsunset
-        - evolution-data-center
+        - evolution-data-server
         - micro
         - starship
         - kitty
