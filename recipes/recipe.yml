@@ -43,9 +43,9 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-  - type: script
-    scripts:
-      # - install_homebrew.sh
+# - type: script
+#   scripts:
+#     - install_homebrew.sh
 
   - type: default-flatpaks
     configurations:
