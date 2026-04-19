@@ -1,5 +1,7 @@
 # wayblue-niri &nbsp; [![bluebuild build badge](https://github.com/roma4469/wayblue-niri/actions/workflows/build.yml/badge.svg)](https://github.com/roma4469/wayblue-niri/actions/workflows/build.yml)
 
+wayblue-niri is my own spin on Wayblue with Niri and Waybar. Started by installing Nocturne Shell in place of Waybar then added my own preferences and software needs.
+
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
 After setup, it is recommended you update this README to describe your custom image.
