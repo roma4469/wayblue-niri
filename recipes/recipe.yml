@@ -45,7 +45,7 @@ modules:
 
   - type: script
     scripts:
-      - install_homebrew.sh
+      # - install_homebrew.sh
 
   - type: default-flatpaks
     configurations:
