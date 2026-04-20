@@ -45,7 +45,7 @@ modules:
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-        # - nm-applet # noctalia has its own applets
+        - io.github.diegopvlk.Cine
 
 # - type: script
 #   scripts:
@@ -54,14 +54,13 @@ modules:
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
-      scope: system
+        scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          #- org.mozilla.firefox
+          - org.mozilla.firefox
           - org.gnome.Loupe
           - io.github.diegopvlk.Cine
-          - app.zen_browser.zen
-       scope: user # Also add Flathub user repo, but no user packages
+      - scope: user # Also add Flathub user repo, but no user packages
 
   # this sets up the proper policy & signing files for signed images to work fully
   - type: signing
