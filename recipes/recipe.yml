@@ -60,7 +60,8 @@ modules:
           - org.mozilla.firefox
           - org.gnome.Loupe
           - io.github.diegopvlk.Cine
+          - io.podman_desktop.PodmanDesktop
+          - io.github.olaproeis.Ferrite
       - scope: user # Also add Flathub user repo, but no user packages
-
   # this sets up the proper policy & signing files for signed images to work fully
   - type: signing

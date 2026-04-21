@@ -4,4 +4,5 @@ cosign.private
 /.bluebuild-scripts_*
 wayblue-niri.iso
 wayblue-niri.iso-CHECKSUM
+build.md
 
