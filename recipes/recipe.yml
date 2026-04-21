@@ -39,6 +39,8 @@ modules:
         - fastfetch
         - yazi
         - btop
+        - xdg-desktop-portal
+        - xdg-desktop-portal-wlr
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
