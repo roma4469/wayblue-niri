@@ -37,8 +37,8 @@ modules:
         - kitty
         - fish
         - fastfetch
-        - yazi
-        - btop
+        - yazi 
+        #- btop
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -46,10 +46,6 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - io.github.diegopvlk.Cine
-
-# - type: script
-#   scripts:
-#     - install_homebrew.sh
 
   - type: default-flatpaks
     configurations:
