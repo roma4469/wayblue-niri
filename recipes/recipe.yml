@@ -3,11 +3,11 @@
 # image will be published to ghcr.io/<user>/<name>
 name: wayblue-niri
 # description will be included in the image's metadata
-description: This is my spin of Wayblue:Niri with Noctalia-Shell.
+description: This is my spin of Wayblue Niri image with Noctalia-Shell.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/wayblueorg/niri 
-image-version: latest 
+base-image: ghcr.io/wayblueorg/niri
+image-version: latest
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
