@@ -37,15 +37,18 @@ modules:
         - kitty
         - fish
         - fastfetch
-        - yazi 
-        #- btop
+        - yazi
+        - btop
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-        - io.github.diegopvlk.Cine
+
+# - type: script
+#   scripts:
+#     - install_homebrew.sh
 
   - type: default-flatpaks
     configurations:
@@ -61,3 +64,4 @@ modules:
       - scope: user # Also add Flathub user repo, but no user packages
   # this sets up the proper policy & signing files for signed images to work fully
   - type: signing
+
