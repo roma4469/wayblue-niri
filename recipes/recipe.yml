@@ -41,6 +41,9 @@ modules:
         - btop
         - xdg-desktop-portal
         - xdg-desktop-portal-wlr
+        - openssl-devel
+        - alsa-lib-devel
+        - dbus-devel
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
