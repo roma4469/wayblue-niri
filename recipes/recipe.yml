@@ -41,9 +41,6 @@ modules:
         - btop
         - xdg-desktop-portal # for ferrite
         - xdg-desktop-portal-wlr # for ferrite
-        - openssl-devel # for spotify_player
-        - alsa-lib-devel # also spotify
-        - dbus-devel # also spotify
         - chezmoi.x86_64 # dotfile git
         - chezmoi-fish-completion.noarch # dotfile git
     remove:
@@ -53,10 +50,6 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-# - type: script
-#   scripts:
-#     - install_homebrew.sh
-
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
@@ -64,10 +57,12 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
+          - app.zen_browser.zen
           - org.gnome.Loupe
           - io.github.diegopvlk.Cine
           - io.podman_desktop.PodmanDesktop
           - io.github.olaproeis.Ferrite
+          - org.gnome.DejaDup
       - scope: user # Also add Flathub user repo, but no user packages
   # this sets up the proper policy & signing files for signed images to work fully
   - type: signing
