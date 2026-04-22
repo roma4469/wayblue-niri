@@ -39,11 +39,13 @@ modules:
         - fastfetch
         - yazi
         - btop
-        - xdg-desktop-portal
-        - xdg-desktop-portal-wlr
-        - openssl-devel
-        - alsa-lib-devel
-        - dbus-devel
+        - xdg-desktop-portal # for ferrite
+        - xdg-desktop-portal-wlr # for ferrite
+        - openssl-devel # for spotify_player
+        - alsa-lib-devel # also spotify
+        - dbus-devel # also spotify
+        - chezmoi.x86_64 # dotfile git
+        - chezmoi-fish-completion.noarch # dotfile git
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
