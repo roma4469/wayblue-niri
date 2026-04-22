@@ -39,8 +39,6 @@ modules:
         - fastfetch
         - yazi
         - btop
-        - xdg-desktop-portal # for ferrite
-        - xdg-desktop-portal-wlr # for ferrite
         - chezmoi.x86_64 # dotfile git
         - chezmoi-fish-completion.noarch # dotfile git
     remove:
@@ -61,7 +59,6 @@ modules:
           - org.gnome.Loupe
           - io.github.diegopvlk.Cine
           - io.podman_desktop.PodmanDesktop
-          - io.github.olaproeis.Ferrite
           - org.gnome.DejaDup
       - scope: user # Also add Flathub user repo, but no user packages
   # this sets up the proper policy & signing files for signed images to work fully
